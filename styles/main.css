@@ -1,20 +1,55 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+    background-color: rgb(3, 50, 3);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+header {
+    border-bottom: 1px ridge rgb(255, 255, 255) ;
+    color: white;
+    font-size: 70%;
+    padding: 2em .75em;
+    font-family: sans-serif;
+}
+
 main {
     display: flex;
     flex-direction: column;
+    color: white;
     margin: auto 0;
     align-items: center;
+    font-size: 200%;
+    
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 75%;
+    padding-bottom: .5em;
+    
 }
 
 .digitalclock {
     display: flex;
     flex-direction: row;
     gap: .25em;
+    border: 1 px solid rgb(3, 50, 3);
+    border-width: 10px;
+    background-color: rgb(1, 37, 1);
+    padding: .25em;
 }
+
+.container {
+    font-size: 125%;
+    border: 1 px solid rgb(3, 50, 3);
+    background-color: rgb(1, 37, 1);
+}
+
